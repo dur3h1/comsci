@@ -85,5 +85,6 @@ def main():
         # Perform conversion
         result = convert_units(value, from_unit, to_unit)
         print(f"{value} {from_unit} = {result} {to_unit}")
+        print('')
 
 main()
